@@ -16,7 +16,7 @@ spec:
       labels:
         type: web
         app: backend
-        version: v16
+        version: v11
     spec:
       containers:
       - name: backend
