@@ -16,11 +16,11 @@ spec:
       labels:
         type: web
         app: backend
-        version: v11
+        version: v16
     spec:
       containers:
       - name: backend
-        image: seonyoung1227/backend:16
+        image: seonyoung1227/backend:latest
         envFrom:
           - configMapRef:
               name: mysql-cm
